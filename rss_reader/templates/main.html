@@ -1,8 +1,22 @@
-{% for post in posts %}
-<hr />
-<h3>{{post.title}}</h3>
-<h4>Автор: <a href={{post.link}}>{{post.author}}</a></h4>
-<p>Время публикации: {{post.timestamp}}</p>
-<a href={{post.link}}>Ссылка на оригинал</a>
-<hr />
-{% endfor %}
+<html>
+<style type="text/css">
+    body {color: #ffffff; background: #fffbff; padding: 0 5em; margin: 0}
+    h1 {text-align: center; color: #000000; background: #ffffff}
+    h2 {text-align: center; color: #000000; background: #ffffff}
+    h3 {padding: 2em 1em; background: #000000}
+    h4 {color: #000000; border-top: 1px dotted #fff; margin-top: 2em}
+    p  {color: #000000; margin:  1em 0}
+</style>
+<body>
+    <h1>{{feed.title}}</h1>
+    <h2>{{feed.subtitle}}</h2>
+    {% for post in posts %}
+        <hr />
+        <h3>{{post.title}}</h3>
+        <h4>Автор: {{post.author}}</h4>
+        <p>Время публикации: {{post.timestamp}}</p>
+        <a href={{post.link}}>Ссылка на оригинал</a>
+        <hr />
+    {% endfor %}
+</body>
+</html>
