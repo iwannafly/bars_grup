@@ -12,7 +12,7 @@
     <file path="/feed.py" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361123209147" ignored="false" />
     <file path="/feedLoader.py" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361143279363" ignored="false" />
     <file path="/full_info.html" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361140752143" ignored="false" />
-    <file path="/settings.py" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361141271570" ignored="false" />
+    <file path="/settings.py" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361144852577" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,10 +133,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="full_info.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="full_info.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rss_reader/templates/full_info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="8" selection-start="167" selection-end="167" vertical-scroll-proportion="0.2947977">
+            <state line="6" column="8" selection-start="167" selection-end="167" vertical-scroll-proportion="-3.9230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bars_test_rss/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="18" selection-start="321" selection-end="321" vertical-scroll-proportion="0.22849463">
               <folding />
             </state>
           </provider>
@@ -157,13 +166,13 @@
         <option value="$PROJECT_DIR$/rss_reader/templates/feed.py" />
         <option value="$PROJECT_DIR$/rss_reader/feed.py" />
         <option value="$PROJECT_DIR$/rss_reader/urls.py" />
-        <option value="$PROJECT_DIR$/bars_test_rss/settings.py" />
         <option value="$PROJECT_DIR$/rss_reader/templates/main.html" />
         <option value="$PROJECT_DIR$/rss_reader/models.py" />
         <option value="$PROJECT_DIR$/rss_reader/views.py" />
         <option value="$PROJECT_DIR$/rss_reader/feedLoader.py" />
         <option value="$PROJECT_DIR$/bars_test_rss/urls.py" />
         <option value="$PROJECT_DIR$/rss_reader/templates/full_info.html" />
+        <option value="$PROJECT_DIR$/bars_test_rss/settings.py" />
       </list>
     </option>
   </component>
@@ -518,7 +527,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2431611" sideWeight="0.6803419" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31965813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31965813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -631,13 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bars_test_rss/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="58" selection-end="58" vertical-scroll-proportion="0.09289618">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rss_reader/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -690,7 +692,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rss_reader/templates/full_info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="167" selection-end="167" vertical-scroll-proportion="0.2947977">
+        <state line="6" column="8" selection-start="167" selection-end="167" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bars_test_rss/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="18" selection-start="321" selection-end="321" vertical-scroll-proportion="0.22849463">
           <folding />
         </state>
       </provider>
