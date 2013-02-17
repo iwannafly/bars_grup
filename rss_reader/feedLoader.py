@@ -1,4 +1,4 @@
-from rss_reader.models import BlogPost
+from rss_reader.models import FeedEntry
 from django.db import IntegrityError
 import feedparser
 
@@ -14,7 +14,7 @@ class FeedLoader:
             posts_to_show = feed['entries'].__len__()
         for i in range(posts_to_show):
             try:
-                BlogPost(
+                FeedEntry(
                     post_id=feed['entries'][i].id,
                     author=feed['entries'][i].author,
                     title=feed['entries'][i].title,

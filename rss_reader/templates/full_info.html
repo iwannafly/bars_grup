@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+    body {color: #ffffff; background: #fffbff; padding: 0 5em; margin: 0}
+    h1 {text-align: center; padding: 2em 1em; color: #ffffff; background: #000000}
+    h3 {color: #000000; text-align: left; }
+    p  {color: #000000; text-align: left; margin:  1em 0}
+</style>
+<head>
+    <title>{{ post.title }}</title>
+</head>
+<body>
+    <h1>{{post.title}}</h1>
+    <h3> Автор: {{post.author}} </h3>
+    <h3> Время публикации: {{post.timestamp}}</h3>
+    <h3><a href={{post.link}}> Ссылка на оригинал</a></h3>
+    <hr />
+    {% autoescape off %}
+        <p>{{ post.body|safe }}</p>
+    {% endautoescape %}
+</body>
+</html>

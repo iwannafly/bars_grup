@@ -4,13 +4,15 @@
     <list default="true" id="32c199a6-0a14-489a-9bf1-d1a017cdcd88" name="Default" comment="" />
     <ignored path="bars_grup.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/views.py" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361130832241" ignored="false" />
-    <file path="/urls.py" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361100560749" ignored="false" />
-    <file path="/models.py" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361126516002" ignored="false" />
+    <file path="/views.py" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361140594344" ignored="false" />
+    <file path="/urls.py" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361138656772" ignored="false" />
+    <file path="/models.py" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361138766931" ignored="false" />
     <file path="/BarsFeed.py" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361113187055" ignored="false" />
-    <file path="/main.html" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361130104255" ignored="false" />
+    <file path="/main.html" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361138964257" ignored="false" />
     <file path="/feed.py" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361123209147" ignored="false" />
-    <file path="/feedLoader.py" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361129883750" ignored="false" />
+    <file path="/feedLoader.py" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361142044482" ignored="false" />
+    <file path="/full_info.html" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361140752143" ignored="false" />
+    <file path="/settings.py" changelist="32c199a6-0a14-489a-9bf1-d1a017cdcd88" time="1361141271570" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +71,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rss_reader/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="30" selection-start="466" selection-end="466" vertical-scroll-proportion="0.39306358">
+            <state line="14" column="0" selection-start="487" selection-end="838" vertical-scroll-proportion="-3.2692308">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="full_info.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rss_reader/templates/full_info.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="24" selection-start="560" selection-end="585" vertical-scroll-proportion="-11.115385">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bars_test_rss/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="12" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bars_test_rss/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="41" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,18 +112,18 @@
       <file leaf-file-name="feedLoader.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rss_reader/feedLoader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="46" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0">
+            <state line="4" column="0" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rss_reader/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="26" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+            <state line="18" column="22" selection-start="649" selection-end="649" vertical-scroll-proportion="0.82258064">
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -100,13 +131,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rss_reader/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rss_reader/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="36" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
+            <state line="5" column="6" selection-start="109" selection-end="118" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,16 +170,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/rss_reader/urls.py" />
         <option value="$PROJECT_DIR$/rss_reader/BarsFeed.py" />
         <option value="$PROJECT_DIR$/rss_reader/barsFeed.py" />
         <option value="$PROJECT_DIR$/rss_reader/templates/feed.py" />
         <option value="$PROJECT_DIR$/rss_reader/feed.py" />
-        <option value="$PROJECT_DIR$/rss_reader/models.py" />
-        <option value="$PROJECT_DIR$/rss_reader/feedLoader.py" />
+        <option value="$PROJECT_DIR$/rss_reader/urls.py" />
         <option value="$PROJECT_DIR$/rss_reader/templates/main.html" />
         <option value="$PROJECT_DIR$/bars_test_rss/urls.py" />
         <option value="$PROJECT_DIR$/rss_reader/views.py" />
+        <option value="$PROJECT_DIR$/bars_test_rss/settings.py" />
+        <option value="$PROJECT_DIR$/rss_reader/templates/full_info.html" />
+        <option value="$PROJECT_DIR$/rss_reader/feedLoader.py" />
+        <option value="$PROJECT_DIR$/rss_reader/models.py" />
       </list>
     </option>
   </component>
@@ -238,17 +289,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="Errors" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="Errors" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\django_projects\bars_grup\rss_reader\templates" />
+      <recent name="E:\django_projects\bars_grup\rss_reader\templates\get_hostname" />
+    </key>
   </component>
   <component name="RunManager" selected="Django server.bars_grup">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -559,17 +617,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rss_reader/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bars_test_rss/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="52" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -582,35 +635,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rss_reader/feedLoader.py">
+    <entry file="file://E:/Python27/Lib/site-packages/django/conf/urls/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="46" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rss_reader/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="36" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state line="12" column="4" selection-start="454" selection-end="454" vertical-scroll-proportion="0.33333334">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bars_test_rss/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="43" selection-start="286" selection-end="286" vertical-scroll-proportion="0.3655914">
+        <state line="10" column="41" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rss_reader/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="487" selection-end="838" vertical-scroll-proportion="-3.2692308">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rss_reader/urls.py">
+    <entry file="file://$PROJECT_DIR$/rss_reader/templates/full_info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="117" selection-end="117" vertical-scroll-proportion="0.1827957">
+        <state line="17" column="24" selection-start="560" selection-end="585" vertical-scroll-proportion="-11.115385">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bars_test_rss/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="12" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rss_reader/feedLoader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -621,19 +688,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rss_reader/views.py">
+    <entry file="file://$PROJECT_DIR$/rss_reader/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+        <state line="5" column="6" selection-start="109" selection-end="118" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rss_reader/templates/main.html">
+    <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="30" selection-start="466" selection-end="466" vertical-scroll-proportion="0.39306358">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rss_reader/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="22" selection-start="649" selection-end="649" vertical-scroll-proportion="0.82258064">
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

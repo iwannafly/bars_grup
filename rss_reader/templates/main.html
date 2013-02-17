@@ -7,12 +7,16 @@
     h4 {color: #000000; border-top: 1px dotted #fff; margin-top: 2em}
     p  {color: #000000; margin:  1em 0}
 </style>
+<head>
+    <title>Тестовое задание: отображение rss на django</title>
+</head>
+
 <body>
     <h1>{{feed.title}}</h1>
     <h2>{{feed.subtitle}}</h2>
     {% for post in posts %}
         <hr />
-        <h3>{{post.title}}</h3>
+        <h3><a href="get_hostname/{{ post.id }}">{{post.title}}</a></h3>
         <h4>Автор: {{post.author}}</h4>
         <p>Время публикации: {{post.timestamp}}</p>
         <a href={{post.link}}>Ссылка на оригинал</a>
