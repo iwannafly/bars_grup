@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from django.conf.urls import patterns, include, url
 from rss_reader import views
 
@@ -6,8 +7,11 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    # url(r'^rss_reader/', include('rss_reader.urls')),
+    # главная страница
     url(r'^$', views.main),
-    url(r'^get_hostname/(?P<poll_id>\d+)/', views.showFullInfo),
+    # страницы c полной информацией -  в качестве poll_id будет автогенеренный
+    # местным ORM id записи в БД
+    url(r'^fullInfo/(?P<poll_id>\d+)/', views.showFullInfo),
+    # админка
     url(r'^admin/', include(admin.site.urls)),
 )

@@ -16,7 +16,7 @@
     <h2>{{feed.subtitle}}</h2>
     {% for post in posts %}
         <hr />
-        <h3><a href="get_hostname/{{ post.id }}">{{post.title}}</a></h3>
+        <h3><a href="fullInfo/{{ post.id }}">{{post.title}}</a></h3>
         <h4>Автор: {{post.author}}</h4>
         <p>Время публикации: {{post.timestamp}}</p>
         <a href={{post.link}}>Ссылка на оригинал</a>

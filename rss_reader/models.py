@@ -1,9 +1,10 @@
+# -*- coding: utf-8 -*-
 from django.db import models
 from django.contrib import admin
-from django.db.models import permalink
 
 
 class FeedEntry(models.Model):
+    # уникальность поля защищает от повторной загрузки того же фида
     post_id = models.CharField(max_length=150, unique=True)
     author = models.CharField(max_length=150)
     title = models.CharField(max_length=250)
@@ -14,13 +15,10 @@ class FeedEntry(models.Model):
     class Meta:
         ordering = ('-timestamp',)
 
-    @permalink
-    def get_absolute_url(self):
-        return ("get_hostname/",
-            None, {'object_id': self.id})
 
-
-class BlogPostAdmin(admin.ModelAdmin):
+class FeedEntryAdmin(admin.ModelAdmin):
+    # конфигурирует отображение в админке
     list_display = ('title', 'author', 'timestamp')
 
-admin.site.register(FeedEntry, BlogPostAdmin)
+# регистрируем в админке
+admin.site.register(FeedEntry, FeedEntryAdmin)
